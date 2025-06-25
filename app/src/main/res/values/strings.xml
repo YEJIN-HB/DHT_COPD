@@ -10,4 +10,23 @@
     <string name="btn_mouse">오므린 입술 호흡법</string>
     <string name="btn_diaphragm_training">횡격막 강화 운동</string>
     <string name="btn_home">Home</string>
+
+    <string name="guide">Guide</string>
+    <string name="goal">목표</string>
+    <string name="method">방법</string>
+    <string name="diaphragm_text">
+        환자로 하여금 덜 힘들게 호흡을 하도록 하며 환기의 효율성을 증가시키고, 횡격막의 상승과 하강 거리를
+증가시킨다.</string>
+    <string name="diaphragm_method_text">
+        환자는 편안한 자세를 취하도록 하고(일반적으로 누워서 기댄 자세; Semi-Fowler’s position), 각각 배와
+가슴에 손을 올려놓고 흡기 시 가슴은 움직이지 않고 배가 움직이는 것을 느끼며 호흡하도록 한다. 처음에는 5∼10분간
+하루 3∼4회 실시하고 점차 운동 시간을 늘린다. 모든 훈련은 가장 편한 자세에서 시작하여 점차 누운 자세, 앉은
+자세, 선 자세, 보행 중 호흡운동으로 발전시킨다
+    </string>
+    <string name="btn_start">Start!</string>
+    <string name="timerstart5">5분 타이머 시작</string>
+    <string name="timerstart10">10분 타이머 시작</string>
+
+    <string name="timerEnd">완료!</string>
+    <string name="Count">완료 횟수: 0회</string>
 </resources>
