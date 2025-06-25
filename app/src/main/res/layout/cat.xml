@@ -1,0 +1,206 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/TrainingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/cat"
+            android:textColor="#003366"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/catexplain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/CAT_Text2"
+            android:textColor="#003366"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:text="@string/CAT1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q1Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!-- 0~5 점 -->
+            <RadioButton android:id="@+id/q1_0" android:text="0"/>
+            <RadioButton android:id="@+id/q1_1" android:text="1"/>
+            <RadioButton android:id="@+id/q1_2" android:text="2"/>
+            <RadioButton android:id="@+id/q1_3" android:text="3"/>
+            <RadioButton android:id="@+id/q1_4" android:text="4"/>
+            <RadioButton android:id="@+id/q1_5" android:text="5"/>
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/CAT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q2Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2_0" android:text="0"/>
+            <RadioButton android:id="@+id/q2_1" android:text="1"/>
+            <RadioButton android:id="@+id/q2_2" android:text="2"/>
+            <RadioButton android:id="@+id/q2_3" android:text="3"/>
+            <RadioButton android:id="@+id/q2_4" android:text="4"/>
+            <RadioButton android:id="@+id/q2_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT3 -->
+        <TextView
+            android:text="@string/CAT3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q3Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3_0" android:text="0"/>
+            <RadioButton android:id="@+id/q3_1" android:text="1"/>
+            <RadioButton android:id="@+id/q3_2" android:text="2"/>
+            <RadioButton android:id="@+id/q3_3" android:text="3"/>
+            <RadioButton android:id="@+id/q3_4" android:text="4"/>
+            <RadioButton android:id="@+id/q3_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT4 -->
+        <TextView
+            android:text="@string/CAT4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q4Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4_0" android:text="0"/>
+            <RadioButton android:id="@+id/q4_1" android:text="1"/>
+            <RadioButton android:id="@+id/q4_2" android:text="2"/>
+            <RadioButton android:id="@+id/q4_3" android:text="3"/>
+            <RadioButton android:id="@+id/q4_4" android:text="4"/>
+            <RadioButton android:id="@+id/q4_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT5 -->
+        <TextView
+            android:text="@string/CAT5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q5Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5_0" android:text="0"/>
+            <RadioButton android:id="@+id/q5_1" android:text="1"/>
+            <RadioButton android:id="@+id/q5_2" android:text="2"/>
+            <RadioButton android:id="@+id/q5_3" android:text="3"/>
+            <RadioButton android:id="@+id/q5_4" android:text="4"/>
+            <RadioButton android:id="@+id/q5_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT6 -->
+        <TextView
+            android:text="@string/CAT6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q6Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6_0" android:text="0"/>
+            <RadioButton android:id="@+id/q6_1" android:text="1"/>
+            <RadioButton android:id="@+id/q6_2" android:text="2"/>
+            <RadioButton android:id="@+id/q6_3" android:text="3"/>
+            <RadioButton android:id="@+id/q6_4" android:text="4"/>
+            <RadioButton android:id="@+id/q6_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT7 -->
+        <TextView
+            android:text="@string/CAT7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q7Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7_0" android:text="0"/>
+            <RadioButton android:id="@+id/q7_1" android:text="1"/>
+            <RadioButton android:id="@+id/q7_2" android:text="2"/>
+            <RadioButton android:id="@+id/q7_3" android:text="3"/>
+            <RadioButton android:id="@+id/q7_4" android:text="4"/>
+            <RadioButton android:id="@+id/q7_5" android:text="5"/>
+        </RadioGroup>
+
+        <!-- CAT8 -->
+        <TextView
+            android:text="@string/CAT8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:id="@+id/q8Group"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8_0" android:text="0"/>
+            <RadioButton android:id="@+id/q8_1" android:text="1"/>
+            <RadioButton android:id="@+id/q8_2" android:text="2"/>
+            <RadioButton android:id="@+id/q8_3" android:text="3"/>
+            <RadioButton android:id="@+id/q8_4" android:text="4"/>
+            <RadioButton android:id="@+id/q8_5" android:text="5"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#003366"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="제출" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageExample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/cat_img" />
+    </LinearLayout>
+</ScrollView>

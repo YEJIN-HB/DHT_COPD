@@ -36,6 +36,8 @@
         <activity android:name=".dtActivity" />
         <activity android:name=".dtStart" />
 
+        <activity android:name=".catActivity" />
+
     </application>
 
 </manifest>

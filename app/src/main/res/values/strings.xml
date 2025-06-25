@@ -4,6 +4,8 @@
     <string name="record">기록</string>
 
     <string name="t_title">Training</string>
+    <string name="r_title">Recording</string>
+    <string name="cat">CAT검사</string>
     <string name="app_name">COPD</string>
     <string name="btn_diaphragm">횡격막 호흡법</string>
     <string name="btn_lung">폐분절 호흡법</string>
@@ -55,4 +57,18 @@
 하는 경우 처음에 명치 아래에 1.5∼2.5 kg의 무게부터 시작 하여 호흡 보조근
 도움없이 15분 동안 횡격막 호흡이 가능하면 점차 무게를 늘리도록 한다
     </string>
+
+    <!--CAT-->
+    <string name="CAT_Text2">귀하의 만성폐쇄성폐질환(COPD)은 어떠십니까? 만성폐쇄성폐질환(COPD) 평가 검사(CAT)를 해주십시오.
+다음 질문들은 귀하와 담당 의료진이 만성폐쇄성폐질환(COPD)이 귀하의 육체적, 정신적 건강과 일상생활에 미치는 영향을 평가하기 위한 것입니다. 답안과 검사 점수는 만성폐쇄성폐질환(COPD) 관리를 향상시키고 치료 효과를 최대화하는데 사용될 수 있습니다.
+아래 각 항목마다 현재 귀하의 건강상태를 가장 잘 표현한 칸을 선택해 주십시오.</string>
+    <string name="CAT1">1. 나는 전혀 기침을 하지 않는다 → 항상 기침을 한다</string>
+    <string name="CAT2">2. 나는 가슴에 전혀 가래가 없다 → 가슴에 가래가 가득 차 있다</string>
+    <string name="CAT3">3. 나는 전혀 가슴이 답답함을 느끼지 않는다 → 나는 가슴이 아주 답답함을 느낀다.</string>
+    <string name="CAT4">4. 나는 언덕이나 계단을 오를 때 전혀 숨이 차지 않다 → 나는 언덕이나 계단을 오를 때 아주 숨이 차다</string>
+    <string name="CAT5">5. 나는 집에서 활동하는데 전혀 제약을 받지 않는다 → 나는 집에서 활동하는데 많은 제약을 받는다</string>
+    <string name="CAT6">6. 폐질환에도 불구하고 나느 외출하는데 자신이 있다. → 폐질환으로 인하여 나는 외출하는데 전혀 자신이 없다</string>
+    <string name="CAT7">7. 나는 잠을 깊이 잔다 → 폐질환으로 인하여 나는 잠을 깊이 자지 못한다</string>
+    <string name="CAT8">8. 나는 기운이 왕성하다 → 나는 전혀 기운이 없다</string>
+    <string name="CAT_Text">진료 및 질환과 관련된 부분은 의사선생님과 상담해 주십시오</string>
 </resources>

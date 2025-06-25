@@ -19,6 +19,13 @@ public class MainActivity extends Activity {
             startActivity(intent);
         });
 
+        Button catBtn = findViewById(R.id.CAT);
+
+        catBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, catActivity.class);
+            startActivity(intent);
+        });
+
         }
 
     }

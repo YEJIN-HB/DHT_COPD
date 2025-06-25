@@ -21,37 +21,49 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.418" />
 
+    <!-- 호흡 훈련 버튼 -->
     <Button
         android:id="@+id/Training"
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="60dp"
+        android:text="호흡 훈련"
         android:backgroundTint="#003366"
-        android:fontFamily="sans-serif-medium"
-        android:text="@string/training"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
         android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
         app:layout_constraintTop_toBottomOf="@+id/Title"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/Recording"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="319dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"/>
 
+    <!-- 기록 버튼 -->
     <Button
         android:id="@+id/Recording"
-        android:layout_width="120dp"
+        android:layout_width="150dp"
         android:layout_height="60dp"
+        android:text="기록"
+        android:backgroundTint="#003366"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/Training"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="40dp"/>
+
+    <!-- CAT 검사 버튼 -->
+    <Button
+        android:id="@+id/CAT"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#003366"
         android:fontFamily="sans-serif-medium"
-        android:text="@string/record"
+        android:text="CAT검사"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/Title"
-        app:layout_constraintStart_toEndOf="@+id/Training"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Training" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
