@@ -19,12 +19,20 @@ public class MainActivity extends Activity {
             startActivity(intent);
         });
 
-        Button catBtn = findViewById(R.id.CAT);
+        Button statusBtn = findViewById(R.id.status);
 
-        catBtn.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, catActivity.class);
+        statusBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, statusActivity.class);
             startActivity(intent);
         });
+
+        Button recordBtn = findViewById(R.id.Recording);
+
+        recordBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, recordActivity.class);
+            startActivity(intent);
+        });
+
 
         }
 

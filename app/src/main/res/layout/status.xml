@@ -173,6 +173,30 @@
             <RadioButton android:id="@+id/q8_5" android:text="5"/>
         </RadioGroup>
 
+
+
+
+
+        <!-- mMRC 질문 -->
+        <TextView
+            android:text="현재 느끼는 호흡곤란 정도는 어느 정도인가요? (mMRC)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <RadioGroup
+            android:id="@+id/mMRCGroup"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton android:id="@+id/mMRC_0" android:text="@string/mMRC0"/>
+            <RadioButton android:id="@+id/mMRC_1" android:text="@string/mMRC1"/>
+            <RadioButton android:id="@+id/mMRC_2" android:text="@string/mMRC2"/>
+            <RadioButton android:id="@+id/mMRC_3" android:text="@string/mMRC3"/>
+            <RadioButton android:id="@+id/mMRC_4" android:text="@string/mMRC4"/>
+        </RadioGroup>
+
         <Button
             android:id="@+id/btnSubmit"
             android:layout_width="100dp"
@@ -189,18 +213,11 @@
             android:id="@+id/resultText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/mMRC"
             android:textSize="18sp"
             android:textStyle="bold"
             android:paddingTop="20dp" />
 
-        <ImageView
-            android:id="@+id/imageExample"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter"
-            android:layout_marginTop="30dp"
-            android:src="@drawable/cat_img" />
+
     </LinearLayout>
 </ScrollView>

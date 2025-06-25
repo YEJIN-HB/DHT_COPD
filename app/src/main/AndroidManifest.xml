@@ -36,8 +36,8 @@
         <activity android:name=".dtActivity" />
         <activity android:name=".dtStart" />
 
-        <activity android:name=".catActivity" />
-
+        <activity android:name=".statusActivity" />
+        <activity android:name=".recordActivity" />
     </application>
 
 </manifest>

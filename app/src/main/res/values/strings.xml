@@ -5,7 +5,8 @@
 
     <string name="t_title">Training</string>
     <string name="r_title">Recording</string>
-    <string name="cat">CAT검사</string>
+    <string name="cat">CAT/mMRC검사</string>
+    <string name="status">현재 상태 평가</string>
     <string name="app_name">COPD</string>
     <string name="btn_diaphragm">횡격막 호흡법</string>
     <string name="btn_lung">폐분절 호흡법</string>
@@ -71,4 +72,11 @@
     <string name="CAT7">7. 나는 잠을 깊이 잔다 → 폐질환으로 인하여 나는 잠을 깊이 자지 못한다</string>
     <string name="CAT8">8. 나는 기운이 왕성하다 → 나는 전혀 기운이 없다</string>
     <string name="CAT_Text">진료 및 질환과 관련된 부분은 의사선생님과 상담해 주십시오</string>
+
+    <string name="mMRC">mMRC (호흡곤란 척도)를 선택해주세요.</string>
+    <string name="mMRC0">0: 힘든 운동 시에만 숨이 참</string>
+    <string name="mMRC1">1: 평지를 빠르게 걷거나 오르막길에서 숨이 참</string>
+    <string name="mMRC2">2: 평지를 걷다 숨 차서 멈춤</string>
+    <string name="mMRC3">3: 100m 걷기 또는 수 분 걷기 후 숨이 참</string>
+    <string name="mMRC4">4: 옷 입고 벗을 때도 숨이 참</string>
 </resources>
