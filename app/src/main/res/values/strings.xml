@@ -1,0 +1,13 @@
+<resources>
+    <string name="home_title">COPD BreathCare</string>
+    <string name="training">호흡 훈련</string>
+    <string name="record">기록</string>
+
+    <string name="t_title">Training</string>
+    <string name="app_name">COPD</string>
+    <string name="btn_diaphragm">횡격막 호흡법</string>
+    <string name="btn_lung">폐분절 호흡법</string>
+    <string name="btn_mouse">오므린 입술 호흡법</string>
+    <string name="btn_diaphragm_training">횡격막 강화 운동</string>
+    <string name="btn_home">Home</string>
+</resources>
