@@ -4,23 +4,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
 import android.widget.Button;
 
-public class diaphragmActivity extends Activity {
+public class dtActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.diaphragm);
+        setContentView(R.layout.dt);
 
-        Button btnStart = (Button) findViewById(R.id.btnStart_Diaphragm);
+        Button btnStart = (Button) findViewById(R.id.btnStart_DT);
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),
-                        diaphragmStart.class);
+                        dtStart.class);
                 startActivity(intent);
             }
         });

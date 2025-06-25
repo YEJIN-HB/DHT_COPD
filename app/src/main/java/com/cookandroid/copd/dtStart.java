@@ -2,35 +2,20 @@ package com.cookandroid.copd;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.SystemClock;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.app.Activity;
 import android.widget.Button;
 import android.widget.Chronometer;
-import android.widget.RadioButton;
-import android.os.Handler;
 import android.widget.TextView;
+import android.app.Activity;
 
-public class diaphragmStart extends Activity {
+public class dtStart extends Activity {
     int completeCount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.diaphragm_start);
-
-        WebView webView = findViewById(R.id.D_Vedio);
-        WebSettings webSettings = webView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-
-        String videoId = "wD-D7VKglJg";
-        String html = "<html><body style='margin:0;padding:0;'>" +
-                "<iframe width='100%' height='200' src='https://www.youtube.com/embed/" +
-                videoId + "' frameborder='0' allowfullscreen></iframe>" +
-                "</body></html>";
-
-        webView.loadDataWithBaseURL(null, html, "text/html", "utf-8", null);
+        setContentView(R.layout.lung_start);
 
         Chronometer chrono;
         chrono = findViewById(R.id.D_timer);
@@ -79,3 +64,4 @@ public class diaphragmStart extends Activity {
     }
 
 }
+

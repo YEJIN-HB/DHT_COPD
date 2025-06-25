@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/btn_diaphragm"
+            android:text="@string/btn_diaphragm_training"
             android:textColor="#003366"
             android:textSize="35sp"
             android:textStyle="bold"
@@ -37,27 +37,6 @@
             android:layout_marginTop="50dp" />
 
         <TextView
-            android:id="@+id/TrainingGoal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/goal"
-            android:textColor="#003366"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="50dp" />
-
-        <TextView
-            android:id="@+id/TrainingText"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/diaphragm_text"
-            android:textColor="#003366"
-            android:textSize="15sp"
-            android:layout_marginLeft="50dp" />
-
-        <TextView
             android:id="@+id/TrainingMethod"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,15 +52,11 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/diaphragm_method_text"
+            android:text="@string/dt_method_text"
             android:textColor="#003366"
             android:textSize="15sp"
             android:layout_marginLeft="50dp" />
 
-        <VideoView
-            android:id="@+id/videoView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/imageExample"
@@ -89,12 +64,12 @@
             android:layout_height="208dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:src="@drawable/diaphragm_img" />
+            android:src="@drawable/dt_img" />
 
 
 
         <Button
-            android:id="@+id/btnStart_Diaphragm"
+            android:id="@+id/btnStart_DT"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:backgroundTint="#003366"

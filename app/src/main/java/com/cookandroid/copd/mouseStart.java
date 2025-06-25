@@ -9,22 +9,21 @@ import android.webkit.WebView;
 import android.app.Activity;
 import android.widget.Button;
 import android.widget.Chronometer;
-import android.widget.RadioButton;
 import android.os.Handler;
 import android.widget.TextView;
 
-public class diaphragmStart extends Activity {
+public class mouseStart extends Activity {
     int completeCount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.diaphragm_start);
+        setContentView(R.layout.mouse_start);
 
         WebView webView = findViewById(R.id.D_Vedio);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        String videoId = "wD-D7VKglJg";
+        String videoId = "-ltUSERYbfk";
         String html = "<html><body style='margin:0;padding:0;'>" +
                 "<iframe width='100%' height='200' src='https://www.youtube.com/embed/" +
                 videoId + "' frameborder='0' allowfullscreen></iframe>" +

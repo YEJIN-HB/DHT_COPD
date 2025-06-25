@@ -29,6 +29,12 @@
         <activity android:name=".trainingActivity" />
         <activity android:name=".diaphragmActivity" />
         <activity android:name=".diaphragmStart" />
+        <activity android:name=".lungActivity" />
+        <activity android:name=".lungStart" />
+        <activity android:name=".mouseActivity" />
+        <activity android:name=".mouseStart" />
+        <activity android:name=".dtActivity" />
+        <activity android:name=".dtStart" />
 
     </application>
 
