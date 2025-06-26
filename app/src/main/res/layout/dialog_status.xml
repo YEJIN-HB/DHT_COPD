@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 훈련 전/후 호흡 상태 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_breath"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioBreath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbBreath1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breath_bad" />
+        <RadioButton
+            android:id="@+id/rbBreath2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breath_normal" />
+        <RadioButton
+            android:id="@+id/rbBreath3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breath_good" />
+    </RadioGroup>
+
+    <!-- 기분 상태 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ask_mood"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radioMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbMood1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mood_anxious" />
+        <RadioButton
+            android:id="@+id/rbMood2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mood_normal" />
+        <RadioButton
+            android:id="@+id/rbMood3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mood_relaxed" />
+    </RadioGroup>
+
+</LinearLayout>

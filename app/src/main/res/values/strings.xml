@@ -84,4 +84,22 @@
     <string name="btn_set_alarm">알림 설정</string>
     <string name="alarm_not_set">⏰ 알림 시간이 설정되지 않았습니다.</string>
     <string name="alarm_set_prefix">⏰ 알림 설정됨:</string>
+
+
+    <string name="ask_breath">현재 호흡 상태를 선택하세요:</string>
+    <string name="breath_bad">숨참</string>
+    <string name="breath_normal">보통</string>
+    <string name="breath_good">편안</string>
+
+    <string name="ask_mood">현재 기분 상태를 선택하세요:</string>
+    <string name="mood_anxious">불안</string>
+    <string name="mood_normal">보통</string>
+    <string name="mood_relaxed">편안</string>
+
+    <string name="dialog_title_start">훈련 전 상태 입력</string>
+    <string name="dialog_title_end">훈련 후 상태 입력</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="result_summary">훈련 전: %1$s + %2$s\n훈련 후: %3$s + %4$s\n→ 변화를 확인해보세요!</string>
 </resources>
