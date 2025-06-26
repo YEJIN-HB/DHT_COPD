@@ -2,11 +2,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#F5F9FF">
+
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
 
         <TextView
             android:id="@+id/TrainingTitle"
@@ -16,13 +19,13 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/btn_diaphragm_training"
             android:textColor="#003366"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:textStyle="bold"
-            />
+            android:layout_marginTop="20dp" />
 
         <ImageView
             android:id="@+id/imageExample"
-            android:layout_width="362dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
@@ -35,7 +38,7 @@
             android:textSize="36sp"
             android:textColor="#003366"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="30dp" />
 
         <Button
             android:id="@+id/btnStartTimer5"
@@ -48,7 +51,7 @@
             android:textStyle="bold"
             android:text="@string/timerstart5"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="20dp" />
 
         <Button
             android:id="@+id/btnStartTimer10"
@@ -61,17 +64,17 @@
             android:textStyle="bold"
             android:text="@string/timerstart10"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="16dp" />
 
         <TextView
             android:id="@+id/textCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Count"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textColor="#003366"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="24dp" />
 
         <Button
             android:id="@+id/btnEnd"
@@ -84,11 +87,11 @@
             android:textStyle="bold"
             android:text="@string/timerEnd"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp" />
 
         <Button
             android:id="@+id/btnHome"
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
             android:backgroundTint="#003366"
             android:fontFamily="sans-serif-medium"
@@ -97,8 +100,7 @@
             android:textStyle="bold"
             android:text="@string/btn_home"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp" />
+
     </LinearLayout>
-
-
 </ScrollView>

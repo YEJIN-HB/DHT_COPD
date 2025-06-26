@@ -32,6 +32,11 @@
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#003366"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
         android:text="저장" />
 
     <TextView
@@ -41,4 +46,17 @@
         android:text="선택된 날짜 기록이 여기에 표시됩니다."
         android:textSize="16sp"
         android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#003366"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/btn_home"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>

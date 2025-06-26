@@ -79,4 +79,9 @@
     <string name="mMRC2">2: 평지를 걷다 숨 차서 멈춤</string>
     <string name="mMRC3">3: 100m 걷기 또는 수 분 걷기 후 숨이 참</string>
     <string name="mMRC4">4: 옷 입고 벗을 때도 숨이 참</string>
+
+    <string name="alarm_title">호흡운동 알림 설정</string>
+    <string name="btn_set_alarm">알림 설정</string>
+    <string name="alarm_not_set">⏰ 알림 시간이 설정되지 않았습니다.</string>
+    <string name="alarm_set_prefix">⏰ 알림 설정됨:</string>
 </resources>

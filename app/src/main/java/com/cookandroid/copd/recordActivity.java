@@ -1,6 +1,7 @@
 package com.cookandroid.copd;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -60,6 +61,16 @@ public class recordActivity extends Activity {
                 fakeDB.put(selectedDate, result);
                 textResult.setText("[" + selectedDate + "] 기록:\n" + result);
                 Toast.makeText(getApplicationContext(), "저장된 척 완료!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        Button btnHome = (Button) findViewById(R.id.btnHome);
+        btnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),
+                        MainActivity.class);
+                startActivity(intent);
             }
         });
     }

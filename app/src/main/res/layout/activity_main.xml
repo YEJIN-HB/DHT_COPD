@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F5F9FF"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,56 +16,78 @@
         android:textColor="#003366"
         android:textSize="35sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418" />
+        app:layout_constraintBottom_toTopOf="@id/Training"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp" />
 
     <!-- 호흡 훈련 버튼 -->
     <Button
         android:id="@+id/Training"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="#003366"
         android:fontFamily="sans-serif-medium"
         android:text="호흡 훈련"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/Title"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Title" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- 기록 버튼 -->
     <Button
         android:id="@+id/Recording"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="#003366"
         android:text="기록"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Training" />
-
+        app:layout_constraintTop_toBottomOf="@id/Training"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- 기초 정보 입력 버튼 -->
     <Button
         android:id="@+id/status"
-        android:layout_width="150dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="#003366"
         android:fontFamily="sans-serif-medium"
         android:text="@string/status"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@id/Recording"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Training" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- 알림 기능 버튼 -->
+    <Button
+        android:id="@+id/timer"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#003366"
+        android:fontFamily="sans-serif-medium"
+        android:text="알림기능"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

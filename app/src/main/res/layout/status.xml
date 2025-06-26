@@ -1,11 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F5F9FF">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="24dp">
 
         <TextView
             android:id="@+id/TrainingTitle"
@@ -14,10 +17,10 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/cat"
             android:textColor="#003366"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:layout_marginBottom="24dp" />
 
         <TextView
             android:id="@+id/catexplain"
@@ -26,20 +29,12 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/CAT_Text2"
             android:textColor="#003366"
-            android:textSize="15sp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp" />
 
-        <TextView
-            android:text="@string/CAT1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q1Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <!-- 0~5 점 -->
+        <!-- CAT1~CAT8 문항 -->
+        <TextView android:text="@string/CAT1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q1Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q1_0" android:text="0"/>
             <RadioButton android:id="@+id/q1_1" android:text="1"/>
             <RadioButton android:id="@+id/q1_2" android:text="2"/>
@@ -48,15 +43,8 @@
             <RadioButton android:id="@+id/q1_5" android:text="5"/>
         </RadioGroup>
 
-        <TextView
-            android:text="@string/CAT2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q2Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q2Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q2_0" android:text="0"/>
             <RadioButton android:id="@+id/q2_1" android:text="1"/>
             <RadioButton android:id="@+id/q2_2" android:text="2"/>
@@ -65,16 +53,8 @@
             <RadioButton android:id="@+id/q2_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT3 -->
-        <TextView
-            android:text="@string/CAT3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q3Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q3Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q3_0" android:text="0"/>
             <RadioButton android:id="@+id/q3_1" android:text="1"/>
             <RadioButton android:id="@+id/q3_2" android:text="2"/>
@@ -83,16 +63,8 @@
             <RadioButton android:id="@+id/q3_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT4 -->
-        <TextView
-            android:text="@string/CAT4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q4Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q4Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q4_0" android:text="0"/>
             <RadioButton android:id="@+id/q4_1" android:text="1"/>
             <RadioButton android:id="@+id/q4_2" android:text="2"/>
@@ -101,16 +73,8 @@
             <RadioButton android:id="@+id/q4_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT5 -->
-        <TextView
-            android:text="@string/CAT5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q5Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q5Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q5_0" android:text="0"/>
             <RadioButton android:id="@+id/q5_1" android:text="1"/>
             <RadioButton android:id="@+id/q5_2" android:text="2"/>
@@ -119,16 +83,8 @@
             <RadioButton android:id="@+id/q5_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT6 -->
-        <TextView
-            android:text="@string/CAT6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q6Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q6Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q6_0" android:text="0"/>
             <RadioButton android:id="@+id/q6_1" android:text="1"/>
             <RadioButton android:id="@+id/q6_2" android:text="2"/>
@@ -137,16 +93,8 @@
             <RadioButton android:id="@+id/q6_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT7 -->
-        <TextView
-            android:text="@string/CAT7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q7Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q7Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q7_0" android:text="0"/>
             <RadioButton android:id="@+id/q7_1" android:text="1"/>
             <RadioButton android:id="@+id/q7_2" android:text="2"/>
@@ -155,16 +103,8 @@
             <RadioButton android:id="@+id/q7_5" android:text="5"/>
         </RadioGroup>
 
-        <!-- CAT8 -->
-        <TextView
-            android:text="@string/CAT8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioGroup
-            android:id="@+id/q8Group"
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+        <TextView android:text="@string/CAT8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <RadioGroup android:id="@+id/q8Group" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <RadioButton android:id="@+id/q8_0" android:text="0"/>
             <RadioButton android:id="@+id/q8_1" android:text="1"/>
             <RadioButton android:id="@+id/q8_2" android:text="2"/>
@@ -173,33 +113,31 @@
             <RadioButton android:id="@+id/q8_5" android:text="5"/>
         </RadioGroup>
 
-
-
-
-
-        <!-- mMRC 질문 -->
+        <!-- mMRC -->
         <TextView
             android:text="현재 느끼는 호흡곤란 정도는 어느 정도인가요? (mMRC)"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"/>
+            android:textSize="16sp"
+            android:textColor="#003366"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
 
         <RadioGroup
             android:id="@+id/mMRCGroup"
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-
-            <RadioButton android:id="@+id/mMRC_0" android:text="@string/mMRC0"/>
-            <RadioButton android:id="@+id/mMRC_1" android:text="@string/mMRC1"/>
-            <RadioButton android:id="@+id/mMRC_2" android:text="@string/mMRC2"/>
-            <RadioButton android:id="@+id/mMRC_3" android:text="@string/mMRC3"/>
-            <RadioButton android:id="@+id/mMRC_4" android:text="@string/mMRC4"/>
+            <RadioButton android:id="@+id/mMRC_0" android:text="@string/mMRC0" />
+            <RadioButton android:id="@+id/mMRC_1" android:text="@string/mMRC1" />
+            <RadioButton android:id="@+id/mMRC_2" android:text="@string/mMRC2" />
+            <RadioButton android:id="@+id/mMRC_3" android:text="@string/mMRC3" />
+            <RadioButton android:id="@+id/mMRC_4" android:text="@string/mMRC4" />
         </RadioGroup>
 
         <Button
             android:id="@+id/btnSubmit"
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:backgroundTint="#003366"
             android:fontFamily="sans-serif-medium"
@@ -207,6 +145,7 @@
             android:textSize="16sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
             android:text="제출" />
 
         <TextView
@@ -215,9 +154,23 @@
             android:layout_height="wrap_content"
             android:text="@string/mMRC"
             android:textSize="18sp"
+            android:textColor="#003366"
             android:textStyle="bold"
-            android:paddingTop="20dp" />
+            android:paddingTop="24dp"
+            android:layout_gravity="center_horizontal" />
 
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#003366"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/btn_home"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 </ScrollView>

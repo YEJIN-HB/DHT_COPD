@@ -3,14 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F9FF">
 
     <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
 
         <TextView
             android:id="@+id/TrainingTitle"
@@ -19,10 +21,10 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/btn_diaphragm_training"
             android:textColor="#003366"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="30dp" />
 
         <TextView
             android:id="@+id/TrainingGuide"
@@ -31,47 +33,47 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/guide"
             android:textColor="#003366"
-            android:textSize="35sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/TrainingMethod"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:text="@string/method"
             android:textColor="#003366"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_marginLeft="50dp" />
+            android:paddingStart="12dp"
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/TrainingMText"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:text="@string/dt_method_text"
             android:textColor="#003366"
             android:textSize="15sp"
-            android:layout_marginLeft="50dp" />
-
+            android:paddingStart="12dp"
+            android:layout_marginTop="8dp" />
 
         <ImageView
             android:id="@+id/imageExample"
-            android:layout_width="362dp"
+            android:layout_width="match_parent"
             android:layout_height="208dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:src="@drawable/dt_img" />
 
-
-
         <Button
             android:id="@+id/btnStart_DT"
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
+            android:layout_marginTop="24dp"
             android:backgroundTint="#003366"
             android:fontFamily="sans-serif-medium"
             android:textColor="#FFFFFF"
@@ -82,22 +84,16 @@
 
         <Button
             android:id="@+id/btnHome"
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:layout_height="50dp"
+            android:layout_marginTop="16dp"
             android:backgroundTint="#003366"
             android:fontFamily="sans-serif-medium"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:textStyle="bold"
             android:text="@string/btn_home"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
-
-
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
-
-
-
-
 </ScrollView>

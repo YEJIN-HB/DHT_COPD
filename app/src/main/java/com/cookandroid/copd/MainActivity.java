@@ -33,6 +33,13 @@ public class MainActivity extends Activity {
             startActivity(intent);
         });
 
+        Button timerBtn = findViewById(R.id.timer);
+
+        timerBtn.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, timerActivity.class);
+            startActivity(intent);
+        });
+
 
         }
 
